@@ -17,12 +17,14 @@ Vector::void calc_lft_1_bit(){
 }
 
 Vector::Vector(std::size_t t){
+   size = t;
    weight = 0;
    leftmost_1_bit = 0;
    vec = new std::vector<T>(t);
 }
 
 Vector::Vector(std::size_t t, T initial_value){
+   size = t;
    weight = 0;
    leftmost_1_bit = 0;
    vec = new std::vector<T>(t,inizial_value);
@@ -34,4 +36,12 @@ Vector::const T& operator[](unsigned i) const{
 
 Vector::T& operator[](unsigned i){
    return vec[i];
+}
+
+Vector::Vector& operator+=(const Vector v){
+    if(size!=v.size)
+      return; //TODO rise an exception
+	for(i=0; i<size; i++){
+		vec[i]+=v[i];
+	}
 }
