@@ -1,0 +1,77 @@
+\begin{theindex}
+
+  \item {Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{9}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {I\-S\-\_\-\-N\-O\-T\-\_\-\-Q\-U\-A\-D\-R\-A\-T\-I\-C\-\_\-\-R\-E\-S\-I\-D\-U\-E}
+    \subitem {Q\-S}, \hyperpage{7}
+  \item {include/factor\discretionary {-}{}{}\_\discretionary {-}{}{}base.\discretionary {-}{}{}h}, 
+		\hyperpage{13}
+  \item {include/vector.\discretionary {-}{}{}h}, \hyperpage{13}
+  \item {include/virtual/abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base.\discretionary {-}{}{}h}, 
+		\hyperpage{14}
+  \item {include/virtual/abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector.\discretionary {-}{}{}h}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {legendre\discretionary {-}{}{}\_\discretionary {-}{}{}value}
+    \subitem {Q\discretionary {-}{}{}S}, \hyperpage{7}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{15}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Q\-S}
+    \subitem {I\-S\-\_\-\-N\-O\-T\-\_\-\-Q\-U\-A\-D\-R\-A\-T\-I\-C\-\_\-\-R\-E\-S\-I\-D\-U\-E}, 
+		\hyperpage{7}
+  \item {Q\discretionary {-}{}{}S}, \hyperpage{7}
+    \subitem {legendre\discretionary {-}{}{}\_\discretionary {-}{}{}value}, 
+		\hyperpage{7}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{9}
+    \subitem {Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{9}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{10}
+    \subitem {Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{10}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric}, 
+		\hyperpage{7}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector}
+    \subitem {Vector}, \hyperpage{10}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector$<$ T $>$}, 
+		\hyperpage{9}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Vector}
+    \subitem {Vector}, \hyperpage{11}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Vector$<$ T $>$}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {src/main.\discretionary {-}{}{}cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {V\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}U\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}
+    \subitem {vector.\discretionary {-}{}{}h}, \hyperpage{14}
+  \item {Vector}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector}, 
+		\hyperpage{10}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Vector}, 
+		\hyperpage{11}
+  \item {vector.\discretionary {-}{}{}h}
+    \subitem {V\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}U\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}, 
+		\hyperpage{14}
+
+\end{theindex}
