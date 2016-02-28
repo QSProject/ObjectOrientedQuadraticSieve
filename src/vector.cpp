@@ -1,44 +1,46 @@
-
+a
 #include "../include/vector.h"
 
 
-Vector::void calc_wt(){
+using namespace numeric;
+
+void QS::numeric::Vector::calc_wt(){
    for(int i=0; i<size; i++){
       weight += 1;
    }
 }
 
-Vector::void calc_lft_1_bit(){
+void QS::numeric::Vector::calc_lft_1_bit(){
    for(unsigned i=0; i<size; i++){
       if(vec[i]==1)
       leftmost_1_bit = i;
       break
    }
-}
+}a
 
-Vector::Vector(std::size_t t){
+QS::numeric::Vector::Vector(std::size_t t){
    size = t;
    weight = 0;
    leftmost_1_bit = 0;
    vec = new std::vector<T>(t);
 }
 
-Vector::Vector(std::size_t t, T initial_value){
+QS::numeric::Vector::Vector(std::size_t t, T initial_value){
    size = t;
    weight = 0;
    leftmost_1_bit = 0;
    vec = new std::vector<T>(t,inizial_value);
 }
 
-Vector::const T& operator[](unsigned i) const{
+const T& QS::numeric::Vector::operator[](unsigned i) const{
    return vec[i];
 }
 
-Vector::T& operator[](unsigned i){
+T& QS::numeric::Vector::operator[](unsigned i){
    return vec[i];
 }
 
-Vector::Vector& operator+=(const Vector v){
+Vector& QS::numeric::Vector::operator+=(const Vector v){
     if(size!=v.size)
       return; //TODO rise an exception
 	for(i=0; i<size; i++){
