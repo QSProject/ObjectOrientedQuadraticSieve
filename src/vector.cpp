@@ -2,45 +2,46 @@
 #include "../include/vector.h"
 
 
+template <class T>
+QS::numeric::Vector<T>::Vector(unsigned s){
+   dim = s;
+   weight = 0;
+   leftmost_1_bit = 0;
+   vec.resize(s);
+}
+
+template <class T>
+QS::numeric::Vector<T>::Vector(unsigned s, const T& initial_value){
+   dim = s;
+   weight = 0;
+   leftmost_1_bit = 0;
+   vec.resize(s,initial_value);
+}
 
 template <class T>
 void QS::numeric::Vector<T>::calc_wt(){
-   for(int i=0; i<size; i++){
+   for(int i=0; i<dim; i++){
       weight += 1;
    }
 }
 
 template <class T>
 void QS::numeric::Vector<T>::calc_lft_1_bit(){
-   for(unsigned i=0; i<size; i++){
+   for(unsigned i=0; i<dim; i++){
       if(vec[i]==1)
       leftmost_1_bit = i;
-      break
+      break;
    }
-}a
-
-template <class T>
-QS::numeric::Vector<T>::Vector(std::size_t t){
-   size = t;
-   weight = 0;
-   leftmost_1_bit = 0;
-   vec = std::vector<T>(t);
-}
-
-template <class T>
-QS::numeric::Vector<T>::Vector(std::size_t t, T initial_value){
-   size = t;
-   weight = 0;
-   leftmost_1_bit = 0;
-   vec = new std::vector<T>(t,inizial_value);
 }
 
 //TODO if size==0 size=t else rise exeption "alredyAllocatedVector"
 template <class T>
-void QS::numeric::Vector<T>::resize(std::size_t t){
-   size = t;
-
+void QS::numeric::Vector<T>::resize(unsigned s){
+   dim = s;
+   vec.resize(s);
 }
+
+
 
 template <class T>
 const T& QS::numeric::Vector<T>::operator[](unsigned i) const{
@@ -52,11 +53,29 @@ T& QS::numeric::Vector<T>::operator[](unsigned i){
    return vec[i];
 }
 
+
+template <class T>
+unsigned QS::numeric::Vector<T>::size(){
+   return vec.size();
+}
+
+
+template <class T>
+T& QS::numeric::Vector<T>::get_elem(unsigned i){
+   return vec[i];
+}
+
+template <class T>
+void QS::numeric::Vector<T>::set_elem(unsigned i, T elem){
+   vec[i] = elem;
+}
+/*
 template <class T>
 Vector& QS::numeric::Vector<T>::operator+=(const Vector v){
     if(size!=v.size)
       return; //TODO rise an exception
-	for(i=0; i<size; i++){
-		vec[i]+=v[i];
-	}
+   for(i=0; i<size; i++){
+      vec[i]+=v[i];
+   }
 }
+*/

@@ -1,19 +1,20 @@
 
-#indef  VECTOR_GUARD
+#ifndef  VECTOR_GUARD
 #define VECTOR_GUARD
 
-#include "../virtual/Vector"
+#include "./virtual/abstract_vector.h"
 #include <iostream> 
+#include <vector>
 
 namespace QS{
 namespace numeric{
 
-template <typename T>
-class Vector {
+template <class T>
+class Vector : public Abstract_vector<T> {
    
 private:
-   std::size_t size;
-   T* vec;
+   unsigned dim;
+   std::vector<T> vec;
    unsigned long leftmost_1_bit;
    unsigned long weight;      
   
@@ -21,15 +22,25 @@ public:
    
    Vector();
 
-   Vector(std::size_t t);
+   Vector(unsigned dim);
 
-   Vector(std::size_t t, T initial_value);
+   Vector(unsigned dim, const T& initial_value);
 
-   T operator[]() const; // for reading
+   unsigned size();
+
+   void resize(unsigned dim);
+
+   T& get_elem(unsigned i);
+
+   void set_elem(unsigned i, T elem);
+
+   T& operator[](unsigned i); // for writing
+
+   const T& operator[](unsigned i) const; // for reading
    
-   T& operator[](); // for writing
-   
-   
+   void calc_wt();
+
+   void calc_lft_1_bit();
 };
 
 

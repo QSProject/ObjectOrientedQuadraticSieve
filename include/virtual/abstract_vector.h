@@ -1,5 +1,5 @@
 
-#indef  ABSTRACT_VECTOR_GUARD
+#ifndef  ABSTRACT_VECTOR_GUARD
 #define ABSTRACT_VECTOR_GUARD
 
 namespace QS{
@@ -9,16 +9,16 @@ template <typename T>
 class Abstract_vector {
      
 public:
+
+   virtual 
+   void resize(unsigned dim) = 0;
+
+   virtual
+   unsigned size() = 0;	
+
+   const T operator[](unsigned i) const; // for reading 
    
-   Vector();
-
-   Vector(std::size_t t);
-
-   Vector(std::size_t t, T initial_value);
-
-   T operator[]() const; // for reading 
-   
-   T& operator[](); // for writing
+   T& operator[](unsigned i); // for writing
    
    
 };
