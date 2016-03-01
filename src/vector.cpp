@@ -42,6 +42,11 @@ void QS::numeric::Vector<T>::resize(unsigned s){
 }
 
 
+template <class T>
+void QS::numeric::Vector<T>::resize(unsigned s, T initial_value){
+      dim = s;
+      vec.resize(s,initial_value);
+}
 
 template <class T>
 const T& QS::numeric::Vector<T>::operator[](unsigned i) const{
@@ -79,3 +84,4 @@ Vector& QS::numeric::Vector<T>::operator+=(const Vector v){
    }
 }
 */
+

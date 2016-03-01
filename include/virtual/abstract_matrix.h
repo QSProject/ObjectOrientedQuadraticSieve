@@ -10,17 +10,6 @@ template <typename T>
 class abstract_matrix
 {
 
-protected: 
-
-	/*!
-	 \brief number of rows
-	*/
-	unsigned row_number;
-
-	/*!
-     \brief number of columns
-	*/
-	unsigned col_number;
 public:
    /*! 
     \brief sum two row src and dst and put result in dest

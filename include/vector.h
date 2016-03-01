@@ -28,7 +28,9 @@ public:
 
    unsigned size();
 
-   void resize(unsigned dim);
+   void resize(unsigned s);
+
+   void resize(unsigned s, T initial_value);
 
    T& get_elem(unsigned i);
 
@@ -37,6 +39,10 @@ public:
    T& operator[](unsigned i); // for writing
 
    const T& operator[](unsigned i) const; // for reading
+
+   Vector<T> operator+(const Vector<T> &v) const;
+
+   Vector sum_row(Vector<T> v1, Vector<T> v2);
    
    void calc_wt();
 
