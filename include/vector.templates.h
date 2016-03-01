@@ -1,9 +1,6 @@
 
-#include "../include/vector.h"
-
-
 template <class T>
-QS::numeric::Vector<T>::Vector(unsigned s){
+QSVector<T>::QSVector(unsigned s){
    dim = s;
    weight = 0;
    leftmost_1_bit = 0;
@@ -11,22 +8,22 @@ QS::numeric::Vector<T>::Vector(unsigned s){
 }
 
 template <class T>
-QS::numeric::Vector<T>::Vector(unsigned s, const T& initial_value){
+QSVector<T>::QSVector(unsigned s, const T& initial_value){
    dim = s;
    weight = 0;
    leftmost_1_bit = 0;
-   vec.resize(s,initial_value);
+   vec.resize(s, initial_value);
 }
 
 template <class T>
-void QS::numeric::Vector<T>::calc_wt(){
+void QSVector<T>::calc_wt(){
    for(int i=0; i<dim; i++){
       weight += 1;
    }
 }
 
 template <class T>
-void QS::numeric::Vector<T>::calc_lft_1_bit(){
+void QSVector<T>::calc_lft_1_bit(){
    for(unsigned i=0; i<dim; i++){
       if(vec[i]==1)
       leftmost_1_bit = i;
@@ -34,9 +31,9 @@ void QS::numeric::Vector<T>::calc_lft_1_bit(){
    }
 }
 
-//TODO if size==0 size=t else rise exeption "alredyAllocatedVector"
+//TODO if size==0 size=t else rise exeption "alredyAllocatedQSVector"
 template <class T>
-void QS::numeric::Vector<T>::resize(unsigned s){
+void QSVector<T>::resize(unsigned s){
    dim = s;
    vec.resize(s);
 }
@@ -49,29 +46,29 @@ void QS::numeric::Vector<T>::resize(unsigned s, T initial_value){
 }
 
 template <class T>
-const T& QS::numeric::Vector<T>::operator[](unsigned i) const{
+const T& QSVector<T>::operator[](unsigned i) const{
    return vec[i];
 }
 
 template <class T>
-T& QS::numeric::Vector<T>::operator[](unsigned i){
+T& QSVector<T>::operator[](unsigned i){
    return vec[i];
 }
 
 
 template <class T>
-unsigned QS::numeric::Vector<T>::size(){
+unsigned QSVector<T>::size(){
    return vec.size();
 }
 
 
 template <class T>
-T& QS::numeric::Vector<T>::get_elem(unsigned i){
+T& QSVector<T>::get_elem(unsigned i){
    return vec[i];
 }
 
 template <class T>
-void QS::numeric::Vector<T>::set_elem(unsigned i, T elem){
+void QSVector<T>::set_elem(unsigned i, T elem){
    vec[i] = elem;
 }
 /*

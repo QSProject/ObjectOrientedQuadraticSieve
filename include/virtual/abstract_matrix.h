@@ -1,14 +1,25 @@
 
-#ifndef ABSTRACT_MATRIX_GUARD
-#define ABSTRACT_MATRIX_GUARD
+#ifndef QSABSTRACT_MATRIX_GUARD
+#define QSABSTRACT_MATRIX_GUARD
 
 
-namespace QS{
-namespace numeric{
+namespace QS {
+namespace numeric {
 
 template <typename T>
-class abstract_matrix
-{
+class QSAbstract_matrix {
+
+protected: 
+
+	/*!
+	 \brief number of rows
+	*/
+	unsigned row_number;
+
+	/*!
+     \brief number of columns
+	*/
+	unsigned col_number;
 
 public:
    /*! 
@@ -37,6 +48,7 @@ public:
    ~abstract_matrix();
 	
 };
+
 }
 }
 

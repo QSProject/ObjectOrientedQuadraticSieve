@@ -1,5 +1,5 @@
-#ifndef FACTOR_BASE_GUARD
-#define FACTOR_BASE_GUARD 
+#ifndef QSFACTOR_BASE_GUARD
+#define QSFACTOR_BASE_GUARD 
 
 #include <gmp.h>
 #include "vector.h"
@@ -20,10 +20,10 @@ enum legendre_value {
   IS_NOT_QUADRATIC_RESIDUE;  // -1
 };
 
-class Factor_base : public Abstract_factor_base {
+class QSFactor_base {
 
 private:
-   vector<unsigned long> fb;
+   QSVector<unsigned long> fb;
    virtual legendre_value legendre(mpz N, unsinged long p);
 
 public:
@@ -32,13 +32,13 @@ public:
   * \brief Factor_base constructor without elements has no sense.
     * it needs at least a Number N. 
   */
-  Factor_base() = delete;
+   QSFactor_base() = delete;
  
   // todo remember to use auxiliary file to save prime numbers
    explicit
-   Factor_base(mpz N);
+   QSFactor_base(mpz N);
    
-   Factor_base(mpz_N, long unsigned upper_bound);
+   QSFactor_base(mpz_N, long unsigned upper_bound);
 
    unsigned long operator[](unsigned int i) const;
 
@@ -47,4 +47,4 @@ public:
 
 }
 
-#endif // FACTOR_BASE_GUARD
+#endif // QSFACTOR_BASE_GUARD

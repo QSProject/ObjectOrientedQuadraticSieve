@@ -1,15 +1,13 @@
+#ifndef QSABSTRACT_VECTOR_GUARD
+#define QSABSTRACT_VECTOR_GUARD
 
-#ifndef  ABSTRACT_VECTOR_GUARD
-#define ABSTRACT_VECTOR_GUARD
-
-namespace QS{
-namespace numeric{
+namespace QS {
+namespace numeric {
 
 template <typename T>
-class Abstract_vector {
+class QSAbstract_vector {
      
 public:
-
    virtual 
    void resize(unsigned dim) = 0;
 
@@ -27,4 +25,4 @@ public:
 } // end of namespace numeric
 } // end of namespace QS
 
-#endif // ABSTRACT_VECTOR_GUARD
+#endif // QSABSTRACT_VECTOR_GUARD
