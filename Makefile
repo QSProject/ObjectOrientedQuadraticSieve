@@ -7,15 +7,12 @@ EXE = exec
 DOC = doc
 LIB = lib
 
-$(EXE)/test: $(LIB)/test.o $(LIB)/vector.o
-	$(CC) $(CFLAGS) $(LIB)/test.o $(LIB)/vector.o
+$(EXE)/test: $(LIB)/test.o 
+	$(CC) $(CFLAGS) $(LIB)/test.o 
 
-$(LIB)/test.o: $(SRC)/test.cpp $(INC)/vector.h
+$(LIB)/test.o: $(SRC)/test.cpp 
 	$(CC) $(CFLAGS) -c $(SRC)/test.cpp -o $(LIB)/test.o
-
-$(LIB)/vector.o: $(INC)/vector.h $(SRC)/vector.cpp
-	$(CC) $(CFLAGS) -c $(SRC)/vector.cpp -o $(LIB)/vector.o 
 
 
 clean:
-	rm -rf *.o
+	rm -rf $(LIB)/*.o

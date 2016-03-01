@@ -1,16 +1,15 @@
-
-#ifndef  VECTOR_GUARD
-#define VECTOR_GUARD
+#ifndef QSVECTOR_GUARD
+#define QSVECTOR_GUARD
 
 #include "./virtual/abstract_vector.h"
 #include <iostream> 
 #include <vector>
 
-namespace QS{
-namespace numeric{
+namespace QS {
+namespace numeric {
 
 template <class T>
-class Vector : public Abstract_vector<T> {
+class QSVector : public QSAbstract_vector<T> {
    
 private:
    unsigned dim;
@@ -19,12 +18,11 @@ private:
    unsigned long weight;      
   
 public:
-   
-   Vector();
+   QSVector();
 
-   Vector(unsigned dim);
+   QSVector(unsigned dim);
 
-   Vector(unsigned dim, const T& initial_value);
+   QSVector(unsigned dim, const T& initial_value);
 
    unsigned size();
 
@@ -43,6 +41,7 @@ public:
    void calc_lft_1_bit();
 };
 
+#include "vector.templates.h"
 
 } // end of namespace numeric
 } // end of namespace QS

@@ -1,14 +1,13 @@
 
-#ifndef ABSTRACT_MATRIX_GUARD
-#define ABSTRACT_MATRIX_GUARD
+#ifndef QSABSTRACT_MATRIX_GUARD
+#define QSABSTRACT_MATRIX_GUARD
 
 
-namespace QS{
-namespace numeric{
+namespace QS {
+namespace numeric {
 
 template <typename T>
-class abstract_matrix
-{
+class QSAbstract_matrix {
 
 protected: 
 
@@ -21,6 +20,7 @@ protected:
      \brief number of columns
 	*/
 	unsigned col_number;
+
 public:
    /*! 
     \brief sum two row src and dst and put result in dest
@@ -48,6 +48,7 @@ public:
    ~abstract_matrix();
 	
 };
+
 }
 }
 
