@@ -38,9 +38,9 @@ public:
 
    const T& operator[](unsigned i) const; // for reading
 
-   Vector<T> operator+(const Vector<T> &v) const;
+   QSVector<T> operator+(const QSVector<T> &v) const;
 
-   Vector sum_row(Vector<T> v1, Vector<T> v2);
+   QSVector sum_row(QSVector<T> v1, QSVector<T> v2);
    
    void calc_wt();
 
@@ -52,4 +52,4 @@ public:
 } // end of namespace numeric
 } // end of namespace QS
 
-#endif // VECTOR_GUARD
+#endif // QSVECTOR_GUARD

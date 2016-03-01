@@ -40,7 +40,7 @@ void QSVector<T>::resize(unsigned s){
 
 
 template <class T>
-void QS::numeric::Vector<T>::resize(unsigned s, T initial_value){
+void QS::numeric::QSVector<T>::resize(unsigned s, T initial_value){
       dim = s;
       vec.resize(s,initial_value);
 }
