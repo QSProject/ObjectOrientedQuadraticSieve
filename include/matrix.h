@@ -3,15 +3,17 @@
 
 #include "./virtual/abstract_matrix.h"
 #include "./virtual/abstract_vector.h"
+
+
 namespace QS{
 namespace numeric{
 
 template <class T>
 class QSMatrix : public QSAbstract_matrix<T>{
  
-   private:
+  private:
   
-   QSMatrix();
+  QSMatrix();
 
    /*!
 	  \brief number of rows
@@ -23,6 +25,7 @@ class QSMatrix : public QSAbstract_matrix<T>{
 	 */
    unsigned col_number;
   
+   //TODO Use an Abstract_vector here
    std::vector<QS::numeric::QSVector<T> >  Mat;
 
    public:
@@ -43,8 +46,9 @@ class QSMatrix : public QSAbstract_matrix<T>{
 
 };
 
-#include "matrix.templates.h"
+#include "template/matrix.templates.h"
 
 }
 }
+
 #endif // QS_MATRIX_GUARD
