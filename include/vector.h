@@ -38,9 +38,9 @@ public:
 
    const T& operator[](unsigned i) const; // for reading
 
-   Vector<T> operator+(const Vector<T> &v) const;
+   //Vector<T> operator+(const Vector<T> &v) const;
 
-   Vector sum_row(Vector<T> v1, Vector<T> v2);
+   Vector<T> sum_row(Vector<T> v1, Vector<T> v2);
    
    void calc_wt();
 
