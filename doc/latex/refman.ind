@@ -1,0 +1,197 @@
+\begin{theindex}
+
+  \item {calc\discretionary {-}{}{}\_\discretionary {-}{}{}lft\discretionary {-}{}{}\_\discretionary {-}{}{}1\discretionary {-}{}{}\_\discretionary {-}{}{}bit}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {calc\discretionary {-}{}{}\_\discretionary {-}{}{}wt}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {col\discretionary {-}{}{}\_\discretionary {-}{}{}number}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}col}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}elem}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}, 
+		\hyperpage{12}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}row}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {I\-S\-\_\-\-N\-O\-T\-\_\-\-Q\-U\-A\-D\-R\-A\-T\-I\-C\-\_\-\-R\-E\-S\-I\-D\-U\-E}
+    \subitem {Q\-S}, \hyperpage{9}
+  \item {include/factor\discretionary {-}{}{}\_\discretionary {-}{}{}base.\discretionary {-}{}{}h}, 
+		\hyperpage{19}
+  \item {include/matrix.\discretionary {-}{}{}h}, \hyperpage{19}
+  \item {include/vector.\discretionary {-}{}{}h}, \hyperpage{20}
+  \item {include/virtual/abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base.\discretionary {-}{}{}h}, 
+		\hyperpage{20}
+  \item {include/virtual/abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix.\discretionary {-}{}{}h}, 
+		\hyperpage{20}
+  \item {include/virtual/abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector.\discretionary {-}{}{}h}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {legendre\discretionary {-}{}{}\_\discretionary {-}{}{}value}
+    \subitem {Q\discretionary {-}{}{}S}, \hyperpage{9}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{21}
+    \subitem {test.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{21}
+
+  \indexspace
+
+  \item {operator+}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {put\discretionary {-}{}{}\_\discretionary {-}{}{}elem}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}, 
+		\hyperpage{12}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {Q\-S}
+    \subitem {I\-S\-\_\-\-N\-O\-T\-\_\-\-Q\-U\-A\-D\-R\-A\-T\-I\-C\-\_\-\-R\-E\-S\-I\-D\-U\-E}, 
+		\hyperpage{9}
+  \item {Q\discretionary {-}{}{}S}, \hyperpage{9}
+    \subitem {legendre\discretionary {-}{}{}\_\discretionary {-}{}{}value}, 
+		\hyperpage{9}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{11}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{11}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{14}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{14}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric}, 
+		\hyperpage{9}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}
+    \subitem {col\discretionary {-}{}{}\_\discretionary {-}{}{}number}, 
+		\hyperpage{13}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{12}
+    \subitem {put\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{12}
+    \subitem {row\discretionary {-}{}{}\_\discretionary {-}{}{}number}, 
+		\hyperpage{13}
+    \subitem {sum\discretionary {-}{}{}\_\discretionary {-}{}{}row}, 
+		\hyperpage{13}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix$<$ T $>$}, 
+		\hyperpage{12}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector}
+    \subitem {resize}, \hyperpage{14}
+    \subitem {size}, \hyperpage{14}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector$<$ T $>$}, 
+		\hyperpage{13}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}col}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}row}, 
+		\hyperpage{15}
+    \subitem {put\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{15}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+    \subitem {sum\discretionary {-}{}{}\_\discretionary {-}{}{}row}, 
+		\hyperpage{16}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix$<$ T $>$}, 
+		\hyperpage{15}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}
+    \subitem {calc\discretionary {-}{}{}\_\discretionary {-}{}{}lft\discretionary {-}{}{}\_\discretionary {-}{}{}1\discretionary {-}{}{}\_\discretionary {-}{}{}bit}, 
+		\hyperpage{17}
+    \subitem {calc\discretionary {-}{}{}\_\discretionary {-}{}{}wt}, 
+		\hyperpage{17}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{17}
+    \subitem {operator+}, \hyperpage{17}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+    \subitem {resize}, \hyperpage{17}
+    \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}elem}, 
+		\hyperpage{17}
+    \subitem {size}, \hyperpage{17}
+    \subitem {sum\discretionary {-}{}{}\_\discretionary {-}{}{}row}, 
+		\hyperpage{17}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector$<$ T $>$}, 
+		\hyperpage{16}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{11}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Factor\discretionary {-}{}{}\_\discretionary {-}{}{}base}, 
+		\hyperpage{14}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{15}
+  \item {Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {resize}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector}, 
+		\hyperpage{14}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {row\discretionary {-}{}{}\_\discretionary {-}{}{}number}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}elem}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {size}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}vector}, 
+		\hyperpage{14}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+  \item {src/factor\discretionary {-}{}{}\_\discretionary {-}{}{}base.\discretionary {-}{}{}cpp}, 
+		\hyperpage{21}
+  \item {src/main.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {src/matrix.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {src/test.\discretionary {-}{}{}cpp}, \hyperpage{21}
+  \item {sum\discretionary {-}{}{}\_\discretionary {-}{}{}row}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Abstract\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}, 
+		\hyperpage{13}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Matrix}, 
+		\hyperpage{16}
+    \subitem {Q\discretionary {-}{}{}S\discretionary {-}{}{}::numeric\discretionary {-}{}{}::\discretionary {-}{}{}Q\discretionary {-}{}{}S\discretionary {-}{}{}Vector}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {test.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{21}
+
+\end{theindex}

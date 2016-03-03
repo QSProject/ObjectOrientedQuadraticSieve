@@ -1,5 +1,13 @@
 
 template <class T>
+QSVector<T>::QSVector(){
+   dim = 0;
+   leftmost_1_bit = 0;
+   weight = 0;
+   vec.resize(0); 
+}
+
+template <class T>
 QSVector<T>::QSVector(unsigned s){
    dim = s;
    weight = 0;
@@ -8,7 +16,7 @@ QSVector<T>::QSVector(unsigned s){
 }
 
 template <class T>
-QSVector<T>::QSVector(unsigned s, const T& initial_value){
+QSVector<T>::QSVector(unsigned s, const T initial_value){
    dim = s;
    weight = 0;
    leftmost_1_bit = 0;
@@ -40,7 +48,7 @@ void QSVector<T>::resize(unsigned s){
 
 
 template <class T>
-void QS::numeric::QSVector<T>::resize(unsigned s, T initial_value){
+void QS::numeric::QSVector<T>::resize(unsigned s, const T& initial_value){
       dim = s;
       vec.resize(s,initial_value);
 }
@@ -63,12 +71,12 @@ unsigned QSVector<T>::size(){
 
 
 template <class T>
-T& QSVector<T>::get_elem(unsigned i){
+T QSVector<T>::get_elem(unsigned i){
    return vec[i];
 }
 
 template <class T>
-void QSVector<T>::set_elem(unsigned i, T elem){
+void QSVector<T>::set_elem(unsigned i, const T& elem){
    vec[i] = elem;
 }
 

@@ -8,7 +8,7 @@ DOC = doc
 LIB = lib
 
 $(EXE)/test: $(LIB)/test.o 
-	$(CC) $(CFLAGS) $(LIB)/test.o -o test
+	$(CC) $(CFLAGS) $(LIB)/test.o -o $(EXE)/test
 
 $(LIB)/test.o: $(SRC)/test.cpp 
 	$(CC) $(CFLAGS) -c $(SRC)/test.cpp -o $(LIB)/test.o

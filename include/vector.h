@@ -16,8 +16,9 @@ private:
    std::vector<T> vec;
    unsigned long leftmost_1_bit;
    unsigned long weight;      
-  
+
 public:
+
    QSVector();
 
    QSVector(unsigned dim);
@@ -28,9 +29,9 @@ public:
 
    void resize(unsigned s);
 
-   void resize(unsigned s, T initial_value);
+   void resize(unsigned s, const T& initial_value);
 
-   T& get_elem(unsigned i);
+   T get_elem(unsigned i);
 
    void set_elem(unsigned i, T elem);
 
@@ -38,7 +39,7 @@ public:
 
    const T& operator[](unsigned i) const; // for reading
 
-   QSVector<T> operator+(const QSVector<T> &v) const;
+   QSVector<T> operator+(const QSVector<T>& v) const;
 
    QSVector sum_row(QSVector<T> v1, QSVector<T> v2);
    
@@ -47,7 +48,7 @@ public:
    void calc_lft_1_bit();
 };
 
-#include "vector.templates.h"
+#include "template/vector.templates.h"
 
 } // end of namespace numeric
 } // end of namespace QS

@@ -6,7 +6,7 @@
 namespace QS {
 namespace numeric {
 
-template <typename T>
+template <class T>
 class QSAbstract_matrix {
 
 protected: 
@@ -27,7 +27,8 @@ public:
     \param src first row
     \param dst second row
    */
-   virtual void sum_row( unsigned src, unsigned dst) = 0;
+   virtual 
+   QS::numeric::QSVector<T> sum_row(unsigned i, unsigned j) = 0;
  
    /*!
     \brief return element in position i,j
@@ -42,10 +43,8 @@ public:
     \param j column index
     \param elem element to set
    */
-   virtual void put_elem(unsigned i, unsigned j, T elem) = 0;
+   virtual void put_elem(unsigned i, unsigned j, const T& elem) = 0;
 
-   abstract_matrix();
-   ~abstract_matrix();
 	
 };
 

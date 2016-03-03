@@ -4,12 +4,15 @@
 namespace QS {
 namespace numeric {
 
-template <typename T>
+template <class T>
 class QSAbstract_vector {
      
 public:
    virtual 
    void resize(unsigned dim) = 0;
+
+   virtual
+   void resize(unsigned s, const T& initial_value) = 0;
 
    virtual
    unsigned size() = 0;	
