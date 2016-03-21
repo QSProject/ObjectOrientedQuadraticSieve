@@ -23,24 +23,46 @@ enum legendre_value {
 class QSFactor_base {
 
 private:
+
+   /*!
+     \brief it will contains prime number such that legendre(N|p)=1
+   */
    QSVector<unsigned long> fb;
-   virtual legendre_value legendre(mpz N, unsinged long p);
+  
+
+   legendre_value legendre(mpz N, unsinged long p);
 
 public:
    
-  /*!
-  * \brief Factor_base constructor without elements has no sense.
-    * it needs at least a Number N. 
-  */
+   /*! 
+     \brief I want create a non empty factor_base
+   */
    QSFactor_base() = delete;
  
-  // todo remember to use auxiliary file to save prime numbers
-   explicit
-   QSFactor_base(mpz N);
+   /*
+     \brief Creates a factor base for N using the Pomerance's aproximation for the upper bound
+     \param N: is the semiprime number to factorize
+   */
+   QSFactor_base(mpz_class N);
    
-   QSFactor_base(mpz_N, long unsigned upper_bound);
+   /*! 
+     \brief Creates a factor base for N using upper_bound as upper bound
+     \param N: is the semiprime number to factorize
+     \param upper_bound: is the upper bound value for the factor base
+   */
+   QSFactor_base(mpz_class N, long unsigned upper_bound);
 
-   unsigned long operator[](unsigned int i) const;
+   /*!
+     \brief Returns element in position i as l-value
+     \param i: index of element
+   */
+   unsigned long& operator[](unsigned int i);
+
+   /*!
+     \brief Returns element in position i as r-value
+     \param i: index of element
+   */
+   const unsigned long& operator[](unsigned int i) const;
 
 };
 
@@ -48,3 +70,4 @@ public:
 }
 
 #endif // QSFACTOR_BASE_GUARD
+   

@@ -1,6 +1,9 @@
 #ifndef QSABSTRACT_VECTOR_GUARD
 #define QSABSTRACT_VECTOR_GUARD
 
+
+#include "./utils/abstract_id.h"
+2
 namespace QS {
 namespace numeric {
 
@@ -8,6 +11,10 @@ template <class T>
 class QSAbstract_vector {
      
 public:
+
+   virtual 
+   ~QSAbstract_vector();
+
    virtual 
    void resize(unsigned dim) = 0;
 
@@ -17,10 +24,20 @@ public:
    virtual
    unsigned size() = 0;	
 
-   const T operator[](unsigned i) const; // for reading 
-   
-   T& operator[](unsigned i); // for writing
-   
+   virtual
+   T get_elem(unsigned i) = 0;
+
+   virtual
+   void set_elem(unsigned i, const T& elem) = 0;
+
+   virtual
+   void calc_wt() = 0;
+
+   virtual
+   void calc_lft_1_bit() = 0;
+
+   virtual
+   void set_id() = 0;   
    
 };
 
