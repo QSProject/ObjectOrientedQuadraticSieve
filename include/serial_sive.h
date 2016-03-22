@@ -18,7 +18,6 @@
 #define SIEVE_GUARD
 
 #include <string>
-v
 #include <iostream>
 #include "./virtual/abstract_matrix.h"
 #include "./virtual/abstract_polynomial.h"
@@ -76,12 +75,16 @@ public:
      \param fb: the precomputed factor base
      \param m: the lower bound of the range
      \param M: the upper bound of the range
+     \return it returns a matrix of factorization vectors 
      *
      *      Let p be a polynomial, M a range and v1 v2 two vectors and FB the factor base.
      *      This function evaluates p in all M's points and push evaluation in v1.
      *      Then it looks for v1's elements which are FB-Smooth factorizing them and it push
-     *      in v2_j (which has same dimension of FB) the exponents of FB's primes in factorization
-     *      of v1(j).
+     *      in v2_i (which has same dimension of FB) the exponents of FB's primes in factorization
+     *      of v1_i, then it returns a matrix containing all v2_j.
+     *      In matrix Mx[i][j] I will find the value of exponent of fb(j) in factorization of
+     *      p(i). (this won't be true if we are running the code over a parallel machine)
+     *      
      *                
 
    */

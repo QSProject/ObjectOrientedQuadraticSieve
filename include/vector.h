@@ -22,14 +22,37 @@ private:
    unsigned long leftmost_1_bit;
  
    unsigned long weight;      
-
+ 
+   /*!
+     \brief identifies the vector.
+     *
+     *      After finding dependent lines with gauss elimination I will have
+     *      to sum same rows over the exponent matrix. 
+     *      I will use id in order to memorize rows I used to create a dependent 
+     *      linearly system.
+   */
    QSAbstract_id id;
+
+   /*! 
+     \brief it's the j I will use to evaluate polynomial p.
+     *    
+     *      Since our aim is to find a subset of a range M such tath
+     *      the product of the evaluation of p over that subset and the
+     *      product of the point where I evaluate p are square, we need
+     *      to remember the point where I evaluated p to find the factorization
+     *      contained in vec. 
+     *      This j is the 'j' used in sieve when I evaluate and factorize 
+     *      p(j) = ((j+inf(N^(1/2)))) - N.
+     *      The relation I'm looking for is ((A1+s)(A2+s)...(An+s))^2 = v(A1)v(A2)v(A3)
+     *      where v(A1)v(A2)v(A3) is a square modulo N and
+   */
+   long int j;
    
 
 public:
 
    /*!
-     \brief creates an empty vector of dimension = 0 setting the id
+     \brief creates an empty vector of dimension = 0 setting the id and j
    */
    QSVector();
 
@@ -45,6 +68,11 @@ public:
      *      initial_value
    */
    QSVector(unsigned dim, const T& initial_value);
+
+   /*!
+     \brief copy constructor
+   */
+   QSVector(const &QSVector v);
 
    /*!
      \brief return dimension
