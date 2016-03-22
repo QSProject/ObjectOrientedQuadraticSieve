@@ -29,7 +29,7 @@ private:
 public:
 
    /*!
-	 \brief this constructor will create (A+inf(N^(1/2)))^2 - N
+	 \brief this constructor will create Kraitchic's polynomial (A+inf(N^(1/2)))^2 - N
    */
    QSPolynomial();
 

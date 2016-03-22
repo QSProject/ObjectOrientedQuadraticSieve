@@ -10,6 +10,9 @@ class QSAbstract_polynomial{
 
 public:
 
+  virtual
+  ~QSAbstract_polynomial() = 0;
+
    /*!
      \brief returns the degree of polynomial
    */
