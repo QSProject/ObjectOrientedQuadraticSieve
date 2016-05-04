@@ -11,13 +11,13 @@ class QSAbstract_polynomial{
 public:
 
   virtual
-  ~QSAbstract_polynomial() = 0;
+  ~QSAbstract_polynomial() ;
 
    /*!
      \brief returns the degree of polynomial
    */
    virtual
-   unsigned get_degree() = 0;
+   unsigned get_degree() ;
 
    /*!
      \brief evaluate the polynomial in eval
