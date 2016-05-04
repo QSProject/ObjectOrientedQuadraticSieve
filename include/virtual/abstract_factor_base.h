@@ -11,7 +11,7 @@ class QSAbstract_factor_base {
 private:
 
    // Calculates legendre_number between N and P (N|p)
-   virtual legendre_value legendre(mpz N, unsinged long p) = 0;
+   virtual legendre_value legendre(mpz N, unsinged long p);
 
 public:
    
@@ -29,14 +29,14 @@ public:
      \param i: index of element
    */
    virtual 
-   unsigned long& operator[](unsigned int i) = 0;
+   unsigned long& operator[](unsigned int i);
 
    /*!
      \brief Returns element in position i as r-value
      \param i: index of element
    */
    virtual 
-   const unsigned long& operator[](unsigned int i) const = 0;
+   const unsigned long& operator[](unsigned int i) const;
 };
 
 
