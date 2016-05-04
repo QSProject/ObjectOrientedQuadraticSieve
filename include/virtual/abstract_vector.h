@@ -16,28 +16,28 @@ public:
    ~QSAbstract_vector();
 
    virtual 
-   void resize(unsigned dim) = 0;
+   void resize(unsigned dim);
 
    virtual
-   void resize(unsigned s, const T& initial_value) = 0;
+   void resize(unsigned s, const T& initial_value);
 
    virtual
-   unsigned size() = 0;	
+   unsigned size();	
 
    virtual
-   T get_elem(unsigned i) = 0;
+   T get_elem(unsigned i);
 
    virtual
-   void set_elem(unsigned i, const T& elem) = 0;
+   void set_elem(unsigned i, const T& elem);
 
    virtual
-   void calc_wt() = 0;
+   void calc_wt();
 
    virtual
-   void calc_lft_1_bit() = 0;
+   void calc_lft_1_bit();
 
    virtual
-   void set_id() = 0;   
+   void set_id();   
    
 };
 
