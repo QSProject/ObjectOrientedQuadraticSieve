@@ -24,14 +24,14 @@ public:
     \param dst second row
    */
    virtual 
-   QS::numeric::QSVector<T> sum_row(unsigned i, unsigned j) = 0;
+   QS::numeric::QSVector<T> sum_row(unsigned i, unsigned j);
  
    /*!
     \brief return element in position i,j
     \param i row indes
     \param j column index
    */
-   virtual T& get_elem(unsigned i, unsigned j) = 0; 
+   virtual T& get_elem(unsigned i, unsigned j); 
 
    /*!
     \brief set the element in position i,j
@@ -40,13 +40,13 @@ public:
     \param elem element to set
    */
    virtual 
-   void set_elem(unsigned i, unsigned j, const T& elem) = 0;
+   void set_elem(unsigned i, unsigned j, const T& elem);
 
 	 /*!
      \brief returns an unordered set wich contains linear dependend rows
    */
    virtual 
-   std::unordered_set<QS::QSAbstract_id> find_dependencies() = 0;
+   std::unordered_set<QS::QSAbstract_id> find_dependencies();
 
 };
 
